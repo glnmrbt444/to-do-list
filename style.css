@@ -1,14 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+* {
+    background-color: #fff9e4;
+}
 
-.taskList {
+/*fonts */
+.taskList, ul {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  background-color: #fff;
 }
 
-.libertinus-serif-regular {
+.libertinus-serif-regular, h1 {
   font-family: "Libertinus Serif", serif;
   font-weight: 400;
   font-style: normal;
+  background-color: #fff;
+}
+
+/*to do list container*/
+.container {
+    display: flexbox;
+    place-items: center;
+    padding: 50px;
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.addTaskBtn, .taskInput {
+    background-color: #fff;
+
 }
