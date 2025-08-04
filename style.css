@@ -1,10 +1,10 @@
-.h1 {
+h1 {
     font-family: "Libertinus Serif", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.a .p .ul .input {
+a, p, ul, input {
      font-family: "Libertinus Serif", serif;
   font-weight: 400;
   font-style: normal;
