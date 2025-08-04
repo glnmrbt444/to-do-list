@@ -1,11 +1,12 @@
 h1 {
-    font-family: "Libertinus Serif", serif;
+  font-family: "Libertinus Serif", serif;
   font-weight: 400;
   font-style: normal;
 }
 
 a, p, ul, input {
-     font-family: "Libertinus Serif", serif;
-  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
 }
